@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[APPLICATION OPEN]]>
+    </line>
+    <line>
+      <![CDATA[MULTIPLICATION COMPLETED]]>
+    </line>
+    <line>
+      <![CDATA[APPLICATION CLOSE]]>
+    </line>
+    <line>
+      <![CDATA[APPLICATION OPEN]]>
+    </line>
+    <line>
+      <![CDATA[DIVISION COMPLETED]]>
+    </line>
+    <line>
+      <![CDATA[APPLICATION CLOSE]]>
+    </line>
+    <line>
+      <![CDATA[APPLICATION OPEN]]>
+    </line>
+    <line>
+      <![CDATA[ADDITION COMPLETED]]>
+    </line>
+    <line>
+      <![CDATA[APPLICATION CLOSE]]>
+    </line>
+    <line>
+      <![CDATA[APPLICATION OPEN]]>
+    </line>
+    <line>
+      <![CDATA[SUBTRACTION COMPLETED]]>
+    </line>
+    <line>
+      <![CDATA[APPLICATION CLOSE]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-08-20T00:20:14 IST" name="Suite1" finished-at="2021-08-20T00:20:45 IST" duration-ms="31440">
+    <groups>
+    </groups>
+    <test started-at="2021-08-20T00:20:14 IST" name="Default test" finished-at="2021-08-20T00:20:45 IST" duration-ms="31440">
+      <class name="com.spurQlabs.TestScripts.Operation1">
+        <test-method signature="multiplication()[pri:0, instance:com.spurQlabs.TestScripts.Operation1@6e0dec4a]" started-at="2021-08-20T00:20:14 IST" name="multiplication" finished-at="2021-08-20T00:20:21 IST" duration-ms="7592" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[APPLICATION OPEN]]>
+            </line>
+            <line>
+              <![CDATA[MULTIPLICATION COMPLETED]]>
+            </line>
+            <line>
+              <![CDATA[APPLICATION CLOSE]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multiplication -->
+      </class> <!-- com.spurQlabs.TestScripts.Operation1 -->
+      <class name="com.spurQlabs.TestScripts.Operation2">
+        <test-method signature="division()[pri:0, instance:com.spurQlabs.TestScripts.Operation2@2ea227af]" started-at="2021-08-20T00:20:22 IST" name="division" finished-at="2021-08-20T00:20:30 IST" duration-ms="8786" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[APPLICATION OPEN]]>
+            </line>
+            <line>
+              <![CDATA[DIVISION COMPLETED]]>
+            </line>
+            <line>
+              <![CDATA[APPLICATION CLOSE]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- division -->
+      </class> <!-- com.spurQlabs.TestScripts.Operation2 -->
+      <class name="com.spurQlabs.TestScripts.Operation3">
+        <test-method signature="addition()[pri:0, instance:com.spurQlabs.TestScripts.Operation3@4386f16]" started-at="2021-08-20T00:20:30 IST" name="addition" finished-at="2021-08-20T00:20:37 IST" duration-ms="7174" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[APPLICATION OPEN]]>
+            </line>
+            <line>
+              <![CDATA[ADDITION COMPLETED]]>
+            </line>
+            <line>
+              <![CDATA[APPLICATION CLOSE]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addition -->
+      </class> <!-- com.spurQlabs.TestScripts.Operation3 -->
+      <class name="com.spurQlabs.TestScripts.Operation4">
+        <test-method signature="subtraction()[pri:0, instance:com.spurQlabs.TestScripts.Operation4@363ee3a2]" started-at="2021-08-20T00:20:37 IST" name="subtraction" finished-at="2021-08-20T00:20:45 IST" duration-ms="7817" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[APPLICATION OPEN]]>
+            </line>
+            <line>
+              <![CDATA[SUBTRACTION COMPLETED]]>
+            </line>
+            <line>
+              <![CDATA[APPLICATION CLOSE]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- subtraction -->
+      </class> <!-- com.spurQlabs.TestScripts.Operation4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Suite1 -->
+</testng-results>
